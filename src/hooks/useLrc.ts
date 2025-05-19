@@ -1,5 +1,5 @@
-import type { State as LrcState, TrimOptios } from "@lrc-maker/lrc-parser";
-import { parser } from "@lrc-maker/lrc-parser";
+import type { State as LrcState, TrimOptios } from "../utils/lrc-parser";
+import { parser } from "../utils/lrc-parser";
 import { useReducer } from "react";
 
 type InitArgs = Readonly<{

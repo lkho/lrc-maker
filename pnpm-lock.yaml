@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@lrc-maker/lrc-parser':
-    specifier: ^0.1.17
-    version: 0.1.17
   react:
     specifier: ^18.2.0
     version: 18.3.1
@@ -331,10 +328,6 @@ packages:
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
     dev: true
-
-  /@lrc-maker/lrc-parser@0.1.17:
-    resolution: {integrity: sha512-oDlWDDsiHcOdEsQSnBPdQRIu5KFG96nJmOU3XI6g6F8HsTbq4S6IekRCyDQ6OhbJOrfjpsh15TLJFO7Bx+epJg==}
-    dev: false
 
   /@oxlint/darwin-arm64@0.4.0:
     resolution: {integrity: sha512-ad1I7AAZ2YyqpLpuMaYiSCUfmuteh/d8ozDPT3AVdv5ebk4drVmuCz1RuKrHX9r0odREkHpkoKdKr8Y2qGC9fw==}

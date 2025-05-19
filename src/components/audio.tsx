@@ -1,4 +1,4 @@
-import { convertTimeToTag } from "@lrc-maker/lrc-parser";
+import { convertTimeToTag } from "../utils/lrc-parser";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
     AudioActionType,

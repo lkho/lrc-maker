@@ -1,6 +1,6 @@
 import LINK from "#const/link.json" assert { type: "json" };
 import STRINGS from "#const/strings.json" assert { type: "json" };
-import { convertTimeToTag, formatText } from "@lrc-maker/lrc-parser";
+import { convertTimeToTag, formatText } from "../utils/lrc-parser";
 import { useCallback, useContext, useEffect, useMemo, useRef } from "react";
 import { themeColor, ThemeMode } from "../hooks/usePref.js";
 import { unregister } from "../utils/sw.unregister.js";

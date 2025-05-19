@@ -1,7 +1,7 @@
 import LSK from "#const/local_key.json" assert { type: "json" };
 import ROUTER from "#const/router.json" assert { type: "json" };
 import SSK from "#const/session_key.json" assert { type: "json" };
-import { type State as LrcState, stringify } from "@lrc-maker/lrc-parser";
+import { type State as LrcState, stringify } from "../utils/lrc-parser";
 import { useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import type { Action as LrcAction } from "../hooks/useLrc.js";
 import { ActionType as LrcActionType } from "../hooks/useLrc.js";
